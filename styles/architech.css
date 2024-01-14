@@ -91,3 +91,24 @@ nav li a {
           flex-direction: column;
      }
 }
+
+/* main styles */
+main{
+     max-width: 1440px;
+     margin:70px auto;
+}
+
+/* Teams styles */
+.teams-container{
+     display: flex;
+     align-items: center;
+}
+.teams-image-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap:1.5rem;
+}
+.teams-content{
+     padding-right: 70px;
+     padding-left: 70px;
+}
